@@ -134,8 +134,67 @@ function Contact() {
 
           {/* Contact Info */}
           {/* ... rest of your code remains unchanged ... */}
+         {/* Contact Info Section */}
+          <div className="contact-info-section">
+            <div className="card">
+              <h3>Contact Information</h3>
+              <div className="contact-info">
+                <div className="contact-item">
+                  <div className="contact-icon">
+                    <i className="fas fa-envelope"></i>
+                  </div>
+                  <div className="contact-details">
+                    <p className="contact-label">Email</p>
+                    <p className="contact-value">rhis.cky10@gmail.com</p>
+                  </div>
+                </div>
+
+                <div className="contact-item">
+                  <div className="contact-icon">
+                    <i className="fas fa-phone"></i>
+                  </div>
+                  <div className="contact-details">
+                    <p className="contact-label">Phone</p>
+                    <p className="contact-value">+233 (0) 54 607 7868</p>
+                  </div>
+                </div>
+
+                <div className="contact-item">
+                  <div className="contact-icon">
+                    <i className="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div className="contact-details">
+                    <p className="contact-label">Location</p>
+                    <p className="contact-value">Accra, Ghana</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <h3>Follow Me</h3>
+              <div className="social-links">
+                <a href="https://github.com/" className="social-link">
+                  <i className="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/kofi-osei-okyere-66b284264/"
+                  className="social-link"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/rhiscky2?s=21" className="social-link">
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </div>
+              <p className="social-description">
+                Let's connect on social media and stay in touch!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      
     </section>
   );
 }
